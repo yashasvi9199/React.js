@@ -4,7 +4,18 @@ Stepping up in React.js with Node, Mongoose and Javascript
 
 Few programs and notes with detailed structure of codes
 
-# ABout Vite
+# Initialising code
+
+To create a React app with Vite, beging with ```npm create vite``` and choose project name, package name for app and Javascript.
+
+To RUN this repository in your system:
+- fork the repo and clone the repo in your system
+- or download code source
+- open new terminal in your editor
+- run ` npm i ` or `npm install`
+- run `npm run dev`
+
+# About Vite
 
 This provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
