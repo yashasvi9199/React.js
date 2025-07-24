@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+}
+
+.tablet {
+    padding: 6px;
+    color: brown;
+}
