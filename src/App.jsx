@@ -6,6 +6,7 @@ import Css from "./components/CssStyle-external";
 import Css2 from "./components/CssStyle.Inline";
 import ClickHandler from './components/ClickEvent';
 import ChangeVariable from "./components/Hook - useState";
+import ChangeVar from "./components/Hook - useEffect";
 import MapCycle from "./components/Map";
 import Parent from "./components/PropsParent";
 
@@ -47,6 +48,11 @@ function App() {
           </tr>
 
           <tr>
+            <th>Hook - useEffect</th>
+            <td><ChangeVar /></td>
+          </tr>
+
+          <tr>
             <th>Map</th>
             <td><MapCycle /></td>
           </tr>
@@ -57,7 +63,7 @@ function App() {
           </tr>
 
 
-          
+
         </tbody>
       </table>
     </>
