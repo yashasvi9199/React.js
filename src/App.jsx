@@ -7,6 +7,7 @@ import Css2 from "./components/CssStyle.Inline";
 import ClickHandler from './components/ClickEvent';
 import ChangeVariable from "./components/Hook - useState";
 import MapCycle from "./components/Map";
+import Parent from "./components/PropsParent";
 
 function App() {
   return (
@@ -46,6 +47,11 @@ function App() {
         <tr>
           <th>Map</th>
           <td><MapCycle /></td>
+        </tr>
+
+        <tr>
+          <th>Props</th>
+          <td><Parent /></td>
         </tr>
 
       </table>
