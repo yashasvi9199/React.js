@@ -15,6 +15,10 @@ To RUN this repository in your system:
 - run ` npm i ` or `npm install`
 - run `npm run dev`
 
+To RUN JSON SERVER
+- ` npx json-server --wath $filePath --port $port` 
+- we initialise port here so that it doesn't conflict with react server (3000)
+
 # About Vite
 
 This provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
