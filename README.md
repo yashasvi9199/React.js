@@ -4,9 +4,9 @@ Stepping up in React.js with Node, Mongoose and Javascript
 
 Few programs and notes with detailed structure of codes
 
-# Initialising code
+# Initializing code
 
-To create a React app with Vite, beging with ```npm create vite``` and choose project name, package name for app and Javascript.
+To create a React app with Vite, begin with ```npm create vite``` and choose project name, package name for app and Javascript.
 
 To RUN this repository in your system:
 - fork the repo and clone the repo in your system
@@ -16,8 +16,8 @@ To RUN this repository in your system:
 - run `npm run dev`
 
 To RUN JSON SERVER
-- ` npx json-server --wath $filePath --port $port` 
-- we initialise port here so that it doesn't conflict with react server (3000)
+- ` npx json-server --watch $filePath --port $port` 
+- we initialize port here so that it doesn't conflict with react server (3000)
 
 # About Vite
 
