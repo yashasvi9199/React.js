@@ -23,7 +23,7 @@ function App() {
       <table>
 
         <tbody>
-          <tr>
+          {/* <tr>
             <th>NavBar</th>
             <td><Navbar /></td>
           </tr>
@@ -72,7 +72,7 @@ function App() {
           <tr>
             <th>Fetch</th>
             <td><Fetch /></td>
-          </tr>
+          </tr> */}
 
           <tr>
             <th>Router</th>
