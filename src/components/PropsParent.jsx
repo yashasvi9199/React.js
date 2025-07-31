@@ -28,7 +28,7 @@ const Parent = () => {
      {/* Filtered Data as Props */}
       <Child data={data.filter((stud) => stud.lname == 'Agarwal')} title="Filtered Data" />
 
-    {/* Deleting elements from array and passing callback funtions as props */}
+    {/* Deleting elements from array and passing callback functions as props */}
     <Child data={data} handleDelete={handleDelete} title= "Deleting Elements" />
 
     

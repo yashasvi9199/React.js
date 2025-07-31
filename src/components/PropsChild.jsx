@@ -4,14 +4,14 @@ const Child = (props) => {
   const handleDelete = props.handleDelete;
 
   //* We extracted the attributes of props sent from Parent component to here using JSX/javascript
-  //* Altewrnatively we can use destructuring
+  //* Alternatively we can use destructuring
   //TODO Syntax : const Child = ({data, title}) => {}
 
   return (
     <div>
       <h3 style={{ color: "red" }}>{title}</h3>
       <hr />
-      {/* Begingnning of JSX */}
+      {/* Beginning of JSX */}
       {/* Notice the usage of {} and (). 
         {} = JSX in HTML and 
         () is HTML in jsx */}
