@@ -78,9 +78,13 @@ function App() {
             <th>Router</th>
             <td>
               <Router>
-                {/* ! The reason for adding 'exact' keyword is that it should match exact case. If there is a path like /router/create, then without 'exact' keyword, it will also match /router/create and redirect it to /router. As it contains /router in its path */}
+
+                {/*  The reason for adding 'exact' keyword is that it should match exact case. If there is a path like /router/create, then without 'exact' keyword, it will also match /router/create and redirect it to /router. As it contains /router in its path */}
+                
                   <Routes>
-                    <Route exact path= '/router' element={<RouteComp />} />   
+                    <Route exact path= '/router/:id?' element={<RouteComp />} />   
+                    {/* to pass the parameters in router we use :$parameterName (semicolon) 
+                    The ? is added to indicate optionality of the parameter */}
                   </Routes>
                   <Link to="/router">Router Link</Link> <br />
                   <Link to="/">Home</Link>
