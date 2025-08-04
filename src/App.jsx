@@ -16,6 +16,7 @@ import MapCycle from "./components/Map";
 import Parent from "./components/PropsParent";
 import Fetch from "./components/Fetch";
 import RouteComp from "./components/Route";
+import { AxioAPI } from './components/axioAPI';
 
 function App() {
   return (
@@ -80,7 +81,6 @@ function App() {
               <Router>
 
                 {/*  The reason for adding 'exact' keyword is that it should match exact case. If there is a path like /router/create, then without 'exact' keyword, it will also match /router/create and redirect it to /router. As it contains /router in its path */}
-                
                   <Routes>
                     <Route exact path= '/router/:id?' element={<RouteComp />} />   
                     {/* to pass the parameters in router we use :$parameterName (semicolon) 
@@ -90,8 +90,12 @@ function App() {
                   <Link to="/">Home</Link>
 
               </Router>
-              
             </td>
+          </tr>
+
+          <tr>
+            <th>AXIO Router</th>
+            <td> <AxioAPI/></td>
           </tr>
 
         </tbody>
