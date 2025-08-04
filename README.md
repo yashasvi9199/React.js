@@ -17,6 +17,7 @@ To RUN this repository in your system:
 
 To RUN JSON SERVER
 - ` npx json-server --watch $filePath --port $port` 
+- `npx json-server --watch src/components/JSON_SERVER/db.json --port 8000`
 - we initialize port here so that it doesn't conflict with react server (3000)
 
 # About Vite
