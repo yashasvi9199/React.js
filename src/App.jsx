@@ -5,18 +5,20 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 
 // Importing Components
-import Navbar from "./components/Navbar";
-import DynamicValue from "./components/DynamicValues";
-import Css from "./components/CssStyle-external";
-import Css2 from "./components/CssStyle.Inline";
-import ClickHandler from './components/ClickEvent';
-import ChangeVariable from "./components/Hook - useState";
-import ChangeVar from "./components/Hook - useEffect";
-import MapCycle from "./components/Map";
-import Parent from "./components/PropsParent";
-import Fetch from "./components/Fetch";
+import { Mapp } from './components/Map_with_API';
+import { AxioAPI } from './components/AxioAPI';
 import RouteComp from "./components/Route";
-import { AxioAPI } from './components/axioAPI';
+import Fetch from "./components/Fetch";
+import Parent from "./components/PropsParent";
+import MapCycle from "./components/Map";
+import ChangeVar from "./components/Hook - useEffect";
+import ChangeVariable from "./components/Hook - useState";
+import ClickHandler from './components/ClickEvent';
+import Css2 from "./components/CssStyle.Inline";
+import Css from "./components/CssStyle-external";
+import DynamicValue from "./components/DynamicValues";
+import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
@@ -24,56 +26,16 @@ function App() {
       <table>
 
         <tbody>
-          {/* <tr>
-            <th>NavBar</th>
-            <td><Navbar /></td>
+          
+          <tr>
+            <th>Map with Axio API</th>
+            <td><Mapp /></td>
           </tr>
 
           <tr>
-            <th>Dynamic Values</th>
-            <td><DynamicValue /></td>
+            <th>AXIO Router</th>
+            <td> <AxioAPI/></td>
           </tr>
-
-          <tr>
-            <th>External CSS</th>
-            <td><Css /></td>
-          </tr>
-
-          <tr>
-            <th>External CSS</th>
-            <td><Css2 /></td>
-          </tr>
-
-          <tr>
-            <th>Click Event</th>
-            <td><ClickHandler /></td>
-          </tr>
-
-
-          <tr>
-            <th>Hook - useState</th>
-            <td><ChangeVariable /></td>
-          </tr>
-
-          <tr>
-            <th>Hook - useEffect</th>
-            <td><ChangeVar /></td>
-          </tr>
-
-          <tr>
-            <th>Map</th>
-            <td><MapCycle /></td>
-          </tr>
-
-          <tr>
-            <th>Props</th>
-            <td><Parent /></td>
-          </tr>
-
-          <tr>
-            <th>Fetch</th>
-            <td><Fetch /></td>
-          </tr> */}
 
           <tr>
             <th>Router</th>
@@ -93,9 +55,54 @@ function App() {
             </td>
           </tr>
 
+           <tr>
+            <th>Fetch</th>
+            <td><Fetch /></td>
+          </tr>
+
           <tr>
-            <th>AXIO Router</th>
-            <td> <AxioAPI/></td>
+            <th>Props</th>
+            <td><Parent /></td>
+          </tr>
+
+          <tr>
+            <th>Map</th>
+            <td><MapCycle /></td>
+          </tr>
+
+          <tr>
+            <th>Hook - useEffect</th>
+            <td><ChangeVar /></td>
+          </tr>
+
+          <tr>
+            <th>Hook - useState</th>
+            <td><ChangeVariable /></td>
+          </tr>
+
+          <tr>
+            <th>Click Event</th>
+            <td><ClickHandler /></td>
+          </tr>
+
+          <tr>
+            <th>External CSS</th>
+            <td><Css2 /></td>
+          </tr>
+
+          <tr>
+            <th>External CSS</th>
+            <td><Css /></td>
+          </tr>
+
+          <tr>
+            <th>Dynamic Values</th>
+            <td><DynamicValue /></td>
+          </tr>
+
+          <tr>
+            <th>NavBar</th>
+            <td><Navbar /></td>
           </tr>
 
         </tbody>
