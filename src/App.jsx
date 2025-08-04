@@ -9,6 +9,7 @@ import { Mapp } from './components/Map_with_API';
 import { AxioAPI } from './components/AxioAPI';
 import RouteComp from "./components/Route";
 import Fetch from "./components/Fetch";
+import PropAd from "./components/PropsAdvanced";
 import Parent from "./components/PropsParent";
 import MapCycle from "./components/Map";
 import ChangeVar from "./components/Hook - useEffect";
@@ -58,6 +59,11 @@ function App() {
            <tr>
             <th>Fetch</th>
             <td><Fetch /></td>
+          </tr>
+
+          <tr>
+            <th>Advanced Use of Props</th>
+            <td><PropAd /></td>
           </tr>
 
           <tr>
