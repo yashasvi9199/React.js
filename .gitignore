@@ -13,8 +13,11 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+
+# Enabled vscode setting and extension files to be uploaded for better visuals
+# .vscode/*
+# !.vscode/extensions.json
+
 .idea
 .DS_Store
 *.suo
