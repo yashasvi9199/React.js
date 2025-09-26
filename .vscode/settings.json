@@ -1,0 +1,91 @@
+{
+    "cSpell.words": [
+        "Aayush",
+        "Paresh",
+        "Sisodiya",
+        "Yash",
+        "Yashasvi"
+    ],
+    "cSpell.ignoreWords": [
+        "Agarwal",
+        "untill"
+    ],
+
+// Editor settings begin
+
+    "files.autoSave": "afterDelay",
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.colorTheme": "Aura Dark (Soft Text)",
+    "workbench.activityBar.location": "hidden",
+    "workbench.sideBar.location": "right",
+    "workbench.tips.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorCustomizations": {
+        "editorCursor.background": "#000000",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#0000",
+        "editorOverviewRuler.selectionHighlightForeground": "#0000",
+        "editorOverviewRuler.rangeHighlightForeground": "#0000",
+        "editorOverviewRuler.wordHighlightForeground": "#0000",
+        "editorOverviewRuler.bracketMatchForeground": "#0000",
+        "editorOverviewRuler.findMatchForeground": "#0000",
+        "editorOverviewRuler.modifiedForeground": "#0000",
+        "editorOverviewRuler.deletedForeground": "#0000",
+        "editorOverviewRuler.warningForeground": "#0000",
+        "editorOverviewRuler.addedForeground": "#0000",
+        "editorOverviewRuler.errorForeground": "#0000",
+        "editorOverviewRuler.infoForeground": "#0000",
+        "editorOverviewRuler.border": "#0000",
+        "[Aura Dark (Soft Text)]": {
+            "editorSuggestWidget.selectedBackground": "#3A334B",
+            "sideBar.background": "#16131c"
+        }
+  },
+
+
+    "window.zoomLevel": 0.5,
+    "breadcrumbs.enabled": false,
+
+    "material-icon-theme.hidesExplorerArrows": true,
+    "explorer.compactFolders": false,
+    "editor.fontFamily": "Dank Mono",
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "editor.stickyScroll.enabled": false,
+    "editor.guides.indentation": false,
+    "editor.renderWhitespace": "none",
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "top",
+    "editor.quickSuggestions": {
+        "other": "off",
+        "comments": "off",
+        "strings": "off"
+    },
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "auto",
+    "editor.overviewRulerBorder": false,
+    "editor.hideCursorInOverviewRuler": true,
+
+
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+
+}

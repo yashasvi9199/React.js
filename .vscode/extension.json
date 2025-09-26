@@ -1,0 +1,21 @@
+{
+    "recommendations": [
+        "aaron-bond.better-comments",
+        "britesnow.vscode-toggle-quotes",
+        "christian-kohler.path-intellisense",
+        "codeium.codeium",
+        "daltonmenezes.aura-theme",
+        "dbaeumer.vscode-eslint",
+        "edwinhuish.better-comments-next",
+        "edwinkofler.vscode-assorted-languages",
+        "ekil.ekil-pack-base",
+        "esbenp.prettier-vscode",
+        "jock.svg",
+        "kisstkondoros.vscode-gutter-preview",
+        "pkief.material-icon-theme",
+        "postman.postman-for-vscode",
+        "streetsidesoftware.code-spell-checker",
+        "usernamehw.errorlens",
+        "yoavbls.pretty-ts-errors"
+    ]
+}
